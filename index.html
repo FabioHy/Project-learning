@@ -5,49 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: white;
+        }
+
+        header {
+            background-color: #1d1e22;
+            color: white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        main#main {
+            float: both;
+            padding-bottom: 281px;
+            background-color: #131316;
+        }
+
+        div.membros table {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            margin-left: auto; 
+            margin-right: auto;
+            padding-top: 10px;
+        }
+
+        div.atividades table{
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            margin-left: auto; 
+            margin-right: auto;
+            padding-bottom: 10px; 
+        }
+
+       div.membros p {
+            margin-top: 5px; 
+        }
+
+        img, p {
+            color: #a2a2b8;
+            border-radius: 80px;
+        }
+
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        div.atividades {
+            padding-top: 30px;
+        }
+
+        a.pendente {
+            color: rgb(255, 122, 122);
+        }
+
+    </style>
 </head>
 <body>
-    <p>Index.html</p>
-    <hr>
-    <h1>Aplicações para internet</h1>
-    <h2>João Rodrigues Pessoa, Fábio Harley, Julio Guilherme e Kevin Figueirêdo.</h2> <!--Inserir nome da equipe-->
+<main id="main">
 
-    <!--Espaço para inserir foto dos participantes da equipe-->
+<!--Cabeçalho-->
+    <header>
+        <div class="cabecalho">
+            <h1>Aplicações para internet</h1>
+        </div>
+    </header>
+<!------------->
 
-    <h3>Conteúdo</h3>
-    <dl>
-        <dt>Tags</dt>
-            <dd><a href="Tags/Exercício 1/tags_ex1.html">Exercício 1</a></dd>
-            <dd><a href="Tags/Exercício 2/tags_ex2.html">Exercício 2</a></dd>
-            <dd><a href="Tags/Exercício 3/tags_ex3.html">Exercício 3</a></dd>
-            <dd><a href="Tags/Exercício 4/tags_ex4.html">Exercício 4</a></dd>  <!--Pendente-->
-        <dt>Links</dt>
-            <dd><a href="Links/Exercício 1/link_ex1.html">Exercício 1</a></dd> 
-            <dd><a href="Links/Exercicio 2/link_ex2.html">Exercício 2</a></dd> <!--Em Progresso-->
-        <dt>Listas</dt>
-            <dd><a href="Lista/Exercício 1/list_ex1.html">Exercício 1</a></dd>
-            <dd><a href="Lista/Exercício 2/list_ex2.html">Exercício 2</a></dd>
-            <dd><a href="Lista/Exercício 3/list_ex3.html">Exercício 3</a></dd>
-        <dt>Imagens</dt>
-            <dd><a href="Imagem/Exercício 1/img_ex1.html">Exercício 1</a></dd>
-            <dd><a href="Imagem/Exercício 2/img_ex2.html">Exercício 2</a></dd>
-            <dd><a href="Imagem/Exercício 3/img_ex3.html">Exercício 3</a></dd>
-        <dt>Comentários</dt>    
-            <dd><a href="Comentários/Exercício 1/Coment_ex1.html"></a>Exercício 1</dd>
-            <dd><a href=""></a>Exercício 2</dd>                                <!--Pendente-->
-        <dt>Formulários</dt>
-            <dd><a href="Formulários/Exercício 1/form_ex1.html">Exercício 1</a></dd>
-            <dd><a href="Formulários/Exercício 2/form_ex2.html">Exercício 2</a></dd>
-            <dd><a href="Formulários/Exercício 3/form_ex3.html">Exercício 3</a></dd>
-            <dd><a href="Formulários/Exercício 4/form_ex4.html">Exercício 4</a></dd>
-            <dd><a href="Formulários/Exercício 5/form_ex5.html">Exercício 5</a></dd> 
-        <dt>Tabelas</dt>
-            <dd><a href="Tabela/Exercício 1/tab_ex1.html">Exercício 1</a></dd>
-            <dd><a href="Tabela/Exercício 2/tab_ex2.html">Exercício 2</a></dd>
-            <dd><a href="Tabela/Exercício 3/tab_ex3.html">Exercício 3</a></dd>
-            <dd><a href="Tabela/Exercício 4/tab_ex4.html">Exercício 4</a></dd>
-            <dd><a href="Tabela/Exercício 5/tab_ex5.html">Exercício 5</a></dd>
-    </dl>
-    <h3>Sites Referências</h3>
+<!--Membros e Fotos--->
+    <div class="membros">
+        <table align="center" cellspacing="35px"> <!--Tabela com o propósito de alinhar as imagens+texto lado a lado-->
+            <tr>  
+                <div class="membro">
+                    <td>
+                        <img src="https://images.unsplash.com/photo-1586095087956-bc66fe634955?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNwb3RpZnl8ZW58MHx8MHx8&w=1000&q=80" height="80px" width="80px">
+                        <p>Fábio Harley</p>
+                    </td>
+                </div>
+                <div class="membro">
+                    <td>
+                        <img src="https://wallpaperaccess.com/full/7666279.png" height="80px" width="80px">
+                        <p>Julio Guilherme</p>
+                    </td>
+                </div>
+                <div class="membro">
+                    <td>
+                        <img src="https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2NlYW58ZW58MHx8MHx8&w=1000&q=80" height="80px" width="80px">
+                        <p>João Rodrigues</p>
+                    </td>
+                </div>
+                <div class="membro">
+                    <td>    
+                        <img src="https://sm.mashable.com/mashable_in/seo/2/23963/23963_bjqc.jpg" height="80px" width="80px">
+                        <p>Kevin Figueirêdo</p>
+                    </td>
+                </div>
+            </tr> 
+        </table>
+    <hr color="#1d1e22">
+    </div>         
+<!------------------->
+
+<!--Conteúdo/Exercícios-->
+    <div class="atividades">
+        <table align="center" cellspacing="25px">
+            <tr>
+                <th colspan="7"><h3>Conteúdo</h3></th> 
+            </tr>
+            <tr>
+                <th>Tags</th>
+                <th>Links</th>
+                <th>Listas</th>
+                <th>Imagens</th>
+                <th>Comentários</th>
+                <th>Formulários</th>
+                <th>Tabelas</th>
+            </tr>
+            <tr>  
+                <td><a href="Tags/Exercício 1/tags_ex1.html">Exercício 1</a></td>
+                <td><a href="Links/Exercício 1/link_ex1.html">Exercício 1</a></td>
+                <td><a href="Lista/Exercício 1/list_ex1.html">Exercício 1</a></td>
+                <td><a href="Imagem/Exercício 1/img_ex1.html">Exercício 1</a></td>
+                <td><a href="Comentários/Exercício 1/Coment_ex1.html">Exercício 1</a></td>
+                <td><a href="Formulários/Exercício 1/form_ex1.html">Exercício 1</a></td>
+                <td><a href="Tabela/Exercício 1/tab_ex1.html">Exercício 1</a></td>
+            </tr>
+            <tr>
+                <td><a href="Tags/Exercício 2/tags_ex2.html">Exercício 2</a></td>
+                <td><a href="Links/Exercicio 2/link_ex2.html">Exercício 2</a></td> <!--Em Progresso-->
+                <td><a href="Lista/Exercício 2/list_ex2.html">Exercício 2</a></td>
+                <td><a href="Imagem/Exercício 2/img_ex2.html">Exercício 2</a></td>
+                <td><a class="pendente" href="">Exercício 2</a>               </td> <!--Pendente-->
+                <td><a href="Formulários/Exercício 2/form_ex2.html">Exercício 2</a></td>
+                <td><a href="Tabela/Exercício 2/tab_ex2.html">Exercício 2</a></td>
+            </tr>
+            <tr>
+                <td><a href="Tags/Exercício 3/tags_ex3.html">Exercício 3</a></td>
+                <td></td>
+                <td><a href="Lista/Exercício 3/list_ex3.html">Exercício 3</a></td>
+                <td><a href="Imagem/Exercício 3/img_ex3.html">Exercício 3</a></td>
+                <td></td>
+                <td><a href="Formulários/Exercício 3/form_ex3.html">Exercício 3</a></td>
+                <td><a href="Tabela/Exercício 3/tab_ex3.html">Exercício 3</a></td>
+            </tr>
+            <tr>
+                <td><a href="Tags/Exercício 4/tags_ex4.html">Exercício 4</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><a href="Formulários/Exercício 4/form_ex4.html">Exercício 4</a></td>
+                <td><a href="Tabela/Exercício 4/tab_ex4.html">Exercício 4</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><a href="Formulários/Exercício 5/form_ex5.html">Exercício 5</a> </td>
+                <td><a href="Tabela/Exercício 5/tab_ex5.html">Exercício 5</a></td>
+            </tr>
+        </table>
+<!-------------------->
+
+<!--Sites de referência-->
+        <div class="ref" align="center">
+            <table cellspacing="20px">
+                <tr>
+                    <th><h3>Sites Referências</h3></th>
+                </tr>
+                <tr>
+                    <td><h4><a href="https://bb.cruzeirodosulvirtual.com.br">BlackBoard</h4></td>
+                </tr>
+                <tr>
+                    <td><h4><a href="https://github.com">GitHub</a></h4></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<!----------------------->
+</main>
 </body>
 </html>

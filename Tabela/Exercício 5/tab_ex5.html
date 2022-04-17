@@ -5,27 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: rgb(165, 165, 165);
+        }
+
+        header {
+            background-color: #1d1e22;
+            color: white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        main {
+            float: both;
+            padding-bottom: 581px;
+            background-color: #131316;
+        }
+
+        div.membros table {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            margin-left: auto; 
+            margin-right: auto;
+            padding-top: 10px;
+        }
+
+        div.tablenotas table{
+            margin-top: 100px;
+        }
+
+        div.tablenotas table, div.tablenotas td {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            margin-left: auto; 
+            margin-right: auto;
+            border: 1px solid rgb(138, 137, 137);
+            border-collapse: collapse;
+            padding-bottom: 10px;
+            padding-top: 10px; 
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+       div.membros p {
+            margin-top: 5px; 
+        }
+
+        img, p {
+            color: #a2a2b8;
+            border-radius: 80px;
+        }
+
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        div.atividades {
+            padding-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <table border="1">
+<main>
+    <header>
+        <div class="cabecalho">
+            <h1>Aplicações para internet</h1>
+        </div>
+    </header>
+<!------------->
+<!--Membros e Fotos--->
+    <div class="membros">
+        <table align="center" cellspacing="35px"> <!--Tabela com o propósito de alinhar as imagens+texto lado a lado-->
+            <tr>  
+                <div class="membro">
+                    <td>
+                        <img src="https://images.unsplash.com/photo-1586095087956-bc66fe634955?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNwb3RpZnl8ZW58MHx8MHx8&w=1000&q=80" height="80px" width="80px">
+                        <p>Fábio Harley</p>
+                    </td>
+                </div>
+                <div class="membro">
+                    <td>
+                        <img src="https://wallpaperaccess.com/full/7666279.png" height="80px" width="80px">
+                        <p>Julio Guilherme</p>
+                    </td>
+                </div>
+                <div class="membro">
+                    <td>
+                        <img src="https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2NlYW58ZW58MHx8MHx8&w=1000&q=80" height="80px" width="80px">
+                        <p>João Rodrigues</p>
+                    </td>
+                </div>
+                <div class="membro">
+                    <td>    
+                        <img src="https://sm.mashable.com/mashable_in/seo/2/23963/23963_bjqc.jpg" height="80px" width="80px">
+                        <p>Kevin Figueirêdo</p>
+                    </td>
+                </div>
+            </tr> 
+        </table>
+    <hr color="#1d1e22">
+    </div>
+    <div class="tablenotas">  
+    <table align="center">
         <tr>
             <td colspan="2"></td>
-            <td align="center" colspan="3">Primeiro Semestre</td>
-            <td align="center" colspan="3">Segundo Semestre</td>
+            <td colspan="3">Primeiro Semestre</td>
+            <td colspan="3">Segundo Semestre</td>
         </tr>
-        <tr align="center">
+        <tr>
             <td scope="col">Disciplina</td>
             <td scope="col">Faltas</td>
             <td id="av1" scope="col">AV.1</td>
             <td scope="col">AV.2</td>
-            <td scope="col">Media 1</td>
+            <td scope="col">Média 1</td>
             <td scope="col">AV.1</td>
             <td scope="col">AV.2</td>
-            <td scope="col">Media 2</td>
-            <td scope="col">Media Final</td>
+            <td scope="col">Média 2</td>
+            <td scope="col">Média Final</td>
         </tr>
-        <tr align="center">
-            <td id="por">Portugues</td>
+        <tr>
+            <td id="por">Português</td>
             <td>2</td>
             <td>10</td>
             <td>8</td>
@@ -35,8 +146,8 @@
             <td>7,5</td>
             <td>8,25</td>
         </tr>
-        <tr align="center">
-            <td>Matematica</td>
+        <tr>
+            <td>Matemática</td>
             <td>0</td>
             <td>10</td>
             <td>10</td>
@@ -46,8 +157,8 @@
             <td>9,5</td>
             <td>9,75</td>
         </tr>
-        <tr align="center">
-            <td>Quimica</td>
+        <tr>
+            <td>Química</td>
             <td>4</td>
             <td>8</td>
             <td>8</td>
@@ -57,8 +168,8 @@
             <td>7,5</td>
             <td>7,75</td>
         </tr>
-        <tr align="center">
-            <td>Fisica</td>
+        <tr>
+            <td>Física</td>
             <td>2</td>
             <td>7</td>
             <td>6</td>
@@ -68,8 +179,8 @@
             <td>8,5</td>
             <td>7,5</td>
         </tr>
-        
     </table>
-    
+    </div>
+</main>
 </body>
 </html>

@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+header {
+    background-color: #1d1e22;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+main {
+    float: both;
+    padding-bottom: 581px;
+    background-color: #131316;
+}
+
+div.membros table {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+div.membros p {
+    margin-top: 5px; 
+}
+
+img, p {
+    color: #a2a2b8;
+    border-radius: 80px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+div.atividades {
+    padding-top: 30px;
+}
